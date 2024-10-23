@@ -1,0 +1,34 @@
+@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+	font-family: Calibri !important;
+}
+
+.ta-purple {
+	background-color: #602484;
+	color: white;
+}
+
+.ta-logo {
+	font-weight: bold;
+}
+
+.ta-icon {
+  margin-top: 5px;
+}
+
+.ta-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.ta-footer {
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

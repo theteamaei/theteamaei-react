@@ -6,6 +6,8 @@ import {
   Navigate,
 } from "react-router-dom";
 
+import "./styles/theteamaei.css";
+
 import Home from "./components/home";
 import About from "./components/about";
 import Vlog from "./components/vlog";
@@ -22,7 +24,7 @@ class Main extends Component {
         we passes the imported component*/}
                   <Route
                       exact
-                      path="/home"
+                      path="/Home"
                       element={<Home />}
                   />
 
